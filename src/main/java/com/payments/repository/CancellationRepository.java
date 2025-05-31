@@ -1,5 +1,7 @@
 package com.payments.repository;
 
-public interface CancellationRepository {
+import com.payments.entity.CancellationEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface CancellationRepository extends JpaRepository<CancellationEntity, Integer> {
 }

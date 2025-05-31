@@ -1,5 +1,7 @@
 package com.payments.repository;
 
-public interface ConcessionRepository {
+import com.payments.entity.ConcessionEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface ConcessionRepository extends JpaRepository<ConcessionEntity, Integer> {
 }

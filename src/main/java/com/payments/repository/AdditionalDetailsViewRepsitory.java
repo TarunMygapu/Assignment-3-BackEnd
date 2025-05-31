@@ -1,5 +1,7 @@
 package com.payments.repository;
 
-public interface AdditionalDetailsViewRepsitory {
+import com.payments.entity.AdditionalDetailsViewEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface AdditionalDetailsViewRepsitory extends JpaRepository<AdditionalDetailsViewEntity, Integer> {
 }
